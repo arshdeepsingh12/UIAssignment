@@ -1,0 +1,31 @@
+.finalclass{
+	padding-top:5px;
+	height:25px;
+	background-color:black;
+	color:$scnd-clr;
+	display:flex;
+	justify-content:flex-start;
+	a{
+	text-decoration: none;
+	color:$scnd-clr;
+}
+
+}
+
+.footblacklink1{
+width:600px;
+margin-left: 80px;
+}
+
+
+.footblacklink2{
+width:400px;
+}
+
+
+.footblacklink3{
+width:500px;
+margin-right:80px;
+display:flex;
+justify-content:center;
+}

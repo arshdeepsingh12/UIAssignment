@@ -1,0 +1,48 @@
+.belowparent
+{
+	height:42px;
+	display: flex;
+
+}
+
+
+.linkslist2{
+	list-style:none; display:flex; justify-content : space-around;
+	a{
+		color:$hdng-clr;
+	};
+}
+
+
+
+.links2{
+	font-family: $font-fam;
+	width: 300px;
+	padding-left: 10px;
+}
+
+.inputclass{
+border:0.1px solid $scnd-clr; height:27px; border-radius:5px; width:450px;
+}
+
+a{
+	text-decoration: none;
+	
+}
+
+
+
+
+.input{
+	display: flex;
+	justify-content:flex-end;
+font-family: $font-fam;
+	width: 1000px;
+	height: 35px;
+	padding-top: 4px;
+	
+}
+input{
+	color: $scnd-clr;
+
+}
