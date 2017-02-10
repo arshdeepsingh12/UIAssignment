@@ -2,71 +2,61 @@
   height: 180px;
   display: flex; }
   .parent a {
-    color: grey; }
-
-.common {
-  height: 180px;
-  font-size: 140%;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.logo {
-  height: 140px;
-  padding: 40px 0px 0px 50px;
-  width: 150px; }
-
-.mp {
-  display: flex;
-  justify-content: center;
-  font-size: 150%;
-  padding: 100px 0 0 0px;
-  width: 300px;
-  height: 60px; }
-
-.links {
-  width: 800px;
-  padding: 80px 0px 0 0;
-  height: 80px; }
-
-.linkslist {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end; }
-
-.listele {
-  padding-left: 20px; }
+    color: grey;
+    text-decoration: none; }
+  .parent .common {
+    height: 180px;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif; }
+  .parent .logo {
+    height: 140px;
+    padding: 40px 0px 0px 50px;
+    width: 150px; }
+  .parent .mp {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    padding: 100px 0 0 0px;
+    width: 300px;
+    height: 60px; }
+  .parent .links {
+    width: 800px;
+    padding: 80px 0px 0 0;
+    height: 80px; }
+    .parent .links .linkslist {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end; }
+    .parent .links .listele {
+      padding-left: 20px; }
 
 .belowparent {
   height: 42px;
-  display: flex; }
-
-.linkslist2 {
-  list-style: none;
   display: flex;
-  justify-content: space-around; }
-  .linkslist2 a {
-    color: darkgrey; }
-
-.links2 {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 300px;
-  padding-left: 10px; }
-
-.inputclass {
-  border: 0.1px solid lightgrey;
-  height: 27px;
-  border-radius: 5px;
-  width: 450px; }
-
-a {
   text-decoration: none; }
-
-.input {
-  display: flex;
-  justify-content: flex-end;
-  font-family: Arial, Helvetica, sans-serif;
-  width: 1000px;
-  height: 35px;
-  padding-top: 4px; }
+  .belowparent .links2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    padding-left: 10px; }
+    .belowparent .links2 .linkslist2 {
+      list-style: none;
+      display: flex;
+      justify-content: space-around; }
+      .belowparent .links2 .linkslist2 a {
+        color: darkgrey;
+        text-decoration: none; }
+  .belowparent .input {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    height: 35px;
+    padding-top: 4px; }
+    .belowparent .input .inputclass {
+      border: 0.1px solid lightgrey;
+      height: 27px;
+      border-radius: 5px;
+      width: 450px; }
 
 input {
   color: lightgrey; }
@@ -81,27 +71,25 @@ input {
   margin-left: 10px;
   margin-right: 20px;
   justify-content: center; }
-
-.common2 {
-  width: 250px;
-  text-align: left; }
-
-.footlistcommon {
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 0 0 0px;
-  list-style-type: none; }
-
-.footlistheading {
-  padding: 8px 0 8px 0;
-  font-size: 110%; }
-  .footlistheading a {
-    color: grey; }
-
-.elementscommon {
-  padding: 6px 0 6px 0;
-  font-size: 80%; }
-  .elementscommon a {
-    color: lightgrey; }
+  .footparent .common2 {
+    width: 250px;
+    text-align: left; }
+    .footparent .common2 .footlistcommon {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px 0 0 0px;
+      list-style-type: none; }
+    .footparent .common2 .footlistheading {
+      padding: 8px 0 8px 0;
+      font-size: 110%; }
+      .footparent .common2 .footlistheading a {
+        color: grey;
+        text-decoration: none; }
+    .footparent .common2 .elementscommon {
+      padding: 6px 0 6px 0;
+      font-size: 80%; }
+      .footparent .common2 .elementscommon a {
+        color: lightgrey;
+        text-decoration: none; }
 
 .lineclass {
   background-color: grey;
@@ -117,18 +105,15 @@ input {
   .finalclass a {
     text-decoration: none;
     color: lightgrey; }
-
-.footblacklink1 {
-  width: 600px;
-  margin-left: 80px; }
-
-.footblacklink2 {
-  width: 400px; }
-
-.footblacklink3 {
-  width: 500px;
-  margin-right: 80px;
-  display: flex;
-  justify-content: center; }
+  .finalclass .footblacklink1 {
+    width: 600px;
+    margin-left: 80px; }
+  .finalclass .footblacklink2 {
+    width: 400px; }
+  .finalclass .footblacklink3 {
+    width: 500px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center; }
 
 /*# sourceMappingURL=css.css.map */

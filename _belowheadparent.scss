@@ -2,34 +2,22 @@
 {
 	height:42px;
 	display: flex;
-
-}
-
-
-.linkslist2{
-	list-style:none; display:flex; justify-content : space-around;
-	a{
-		color:$hdng-clr;
-	};
-}
-
+	text-decoration:none;
 
 
 .links2{
 	font-family: $font-fam;
 	width: 300px;
 	padding-left: 10px;
-}
-
-.inputclass{
-border:0.1px solid $scnd-clr; height:27px; border-radius:5px; width:450px;
-}
-
-a{
-	text-decoration: none;
 	
+.linkslist2{
+	list-style:none; display:flex; justify-content : space-around;
+	a{
+		color:$hdng-clr;
+		text-decoration:none;
+	};
 }
-
+}
 
 
 
@@ -40,9 +28,26 @@ font-family: $font-fam;
 	width: 1000px;
 	height: 35px;
 	padding-top: 4px;
+
+.inputclass{
+border:0.1px solid $scnd-clr; height:27px; border-radius:5px; width:450px;
+
+
+}
 	
 }
+
+
+}
+
+
 input{
 	color: $scnd-clr;
 
 }
+
+
+
+
+
+

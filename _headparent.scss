@@ -1,14 +1,15 @@
 .parent {
 	height : 180px;	
 	display: flex;
-	a{color:$prim-clr;}
-}
-
-.common {
+	a{color:$prim-clr;
+	text-decoration:none;}
+	.common {
 	height :180px;
 	font-size: 140%;
 	font-family: $font-fam; 
 }
+
+
 .logo {
 	height:140px;
 	padding:40px 0px 0px 50px;
@@ -27,7 +28,6 @@
 	width:800px;
 	padding:80px 0px 0 0;
 	height:80px;
-}
 
 
 .linkslist{
@@ -37,3 +37,11 @@
 .listele{
 	padding-left: 20px;
 }
+}
+
+
+}
+
+
+
+
